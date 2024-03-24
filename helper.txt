@@ -1,0 +1,48 @@
+git config --list
+
+Git config  –global user.name “satuhin95”
+Git config –global user.email “saifcm95@gmail.com”
+
+Git status
+Git add .
+Git log
+Git log –oneline
+Git reflog
+Git add –all
+Git reset –hard logId—--
+Git rm help.txt
+
+Git branch –list
+Git branch dev/add-headline-text
+Git switch dev/add-headline-text
+Git add .
+Git commit -m “added a text as intro”
+Git switch master
+Git merge dev/add-deadline-text
+git branch -d dev/add-deadint-text
+
+git branch -  feature/add-deadint-text   (Rename)
+
+git branch feature/fix-text
+Git switch feature/fix-text
+ Change text
+Git add .
+Git commit -m “fix text”
+git merge feature/add-heading-text
+
+Git status
+Git add .
+ Git commit
+
+Git stash
+Git stash list
+Git stash show -p
+Git stash pop
+Git stash apply stashID
+
+Git rm filename
+Git rm –cached filename
+
+
+
+
